@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercado</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/default.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="Logo" width="50" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="produtos.html">Produtos</a>
+            </li>
+            <!-- Adicione mais links de páginas aqui -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Page -->
+    <section id="home" class="py-5">
+      <div
+        class="container-fluid text-center"
+        style="padding-left: 0; padding-right: 0"
+      >
+        <h1>Bem-vindo ao Nosso Mercado</h1>
+        <p>Sempre os melhores produtos e os melhores preços.</p>
+        <img
+          src="img/supermercado.png"
+          alt="Imagem do mercado"
+          class="img-fluid"
+        />
+      </div>
+    </section>
+
+    <!-- Página de Produtos -->
+    <section id="produtos" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Nossos Produtos</h2>
+        <div class="row">
+          <!-- Produto 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/01.jpg" class="card-img-top" alt="Produto 1" />
+              <div class="card-body">
+                <h5 class="card-title">Produto 1</h5>
+                <p class="card-text">Descrição do Produto 1.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/02.jpg" class="card-img-top" alt="Produto 2" />
+              <div class="card-body">
+                <h5 class="card-title">Produto 2</h5>
+                <p class="card-text">Descrição do Produto 2.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/03.jpg" class="card-img-top" alt="Produto 3" />
+              <div class="card-body">
+                <h5 class="card-title">Produto 3</h5>
+                <p class="card-text">Descrição do Produto 3.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Repita o bloco do produto para os outros produtos -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Adicione mais seções de páginas aqui -->
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </body>
+</html>
